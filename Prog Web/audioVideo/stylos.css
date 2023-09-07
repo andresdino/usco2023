@@ -1,0 +1,12 @@
+th{
+    background: rgb(253, 253, 253);
+}
+td{
+    background: blue;
+    border:  1px solid rgb(0, 0, 0);
+}
+
+table{
+    background: green;
+}
+
