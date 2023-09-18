@@ -1,0 +1,17 @@
+th{
+    background: rgb(253, 253, 253);
+}
+td{
+    background: blue;
+    border:  1px solid rgb(0, 0, 0);
+    border-radius: 8px ;
+}
+
+table{
+    background: green;
+}
+
+.asd{
+    background: green;
+}
+

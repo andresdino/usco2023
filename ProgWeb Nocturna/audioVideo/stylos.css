@@ -1,0 +1,18 @@
+th{
+    background: red;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+td{
+    background: blue;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 10px;
+    font-style: oblique;
+    width: 30px;
+    
+}
+table{
+    text-align: center;            
+    background: rgb(151, 85, 85);
+}
