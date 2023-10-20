@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nota1, nota2, nota3;
+
+        nota1 = parseFloat(prompt("Ingrese la nota 1"))
+        nota2 = parseFloat(prompt("Ingrese la nota 2"))
+        nota3 = parseFloat(prompt("Ingrese la nota 3"))
+
+        let promedio = (nota1 + nota2 + nota3)/ 3
+
+        document.write("El promedio es: " + promedio)
+        document.write('<br>')
+        if(promedio >= 3){
+           document.write('Pasa la materia')
+        }else{
+            document.write('Pierde la materia')
+        }
+    </script>
+</body>
+</html>

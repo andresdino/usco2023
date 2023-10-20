@@ -19,4 +19,11 @@ public class Persona {
         System.out.println("Direccion: "+ this.Direccion);
 
     }
+
+    public int suma(int a, int b){
+        int sum = a + b;
+        return sum;
+    }
+
+
 }
