@@ -8,6 +8,7 @@
 </head>
 <body>
     <div class="container mt-4">
+        <a th:href="@{/nuevo}" class="btn btn-primary">Nuevo</a>
         <table class="table" border="3">
             <thead>
             <tr>
@@ -15,6 +16,10 @@
                 <th>NOMBRE</th>
                 <th>APELLIDO</th>
                 <th>EMAIL</th>
+                <th>DIRECCION</th>
+                <th>ESTADO CIVIL</th>
+                <th>EDAD</th>
+                <th>ACCIONES</th>
             </tr>
             </thead>
             <tbody>
@@ -23,6 +28,12 @@
                 <td th:text="${persona.nombre}"></td>
                 <td th:text="${persona.apellido}"></td>
                 <td th:text="${persona.email}"></td>
+                <td th:text="${persona.direccion}"></td>
+                <td th:text="${persona.estadoCivil}"></td>
+                <td th:text="${persona.edad}"></td>
+                <td>
+                    <a th:href="@{/eliminar/}+${persona.id}"  class="btn btn-danger">Eliminar</a>
+                </td>
 
             </tr>
             </tbody>
